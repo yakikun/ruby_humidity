@@ -154,8 +154,7 @@ ruby submission/demo_run.rb submission/demo_run_01
 
 ```sh
 python3 -m venv .venv
-source .venv/bin/activate  # Linux
-# .venv\Scripts\activate   # Windows
+source .venv/bin/activate
 ```
 
 ### 2\. 必要なPythonパッケージのインストール
@@ -189,13 +188,3 @@ ruby run_prediction.rb runs/model_s42/model.json output.csv
 | `ruby submission/test_irrigation_contract.rb --seed 42` | 灌水判断Contractテスト |
 
 ---
-
-## ■ 学習済みモデル
-
-本提出物には、既に学習済みモデル（`runs/model_s42/model.json`）が含まれています。 学習データから得られた検証MAE最小のエポックのモデルを保存しており、これを用いて即座に推論が可能です。
-
-- **学習データ**: 362件  
-- **検証データ**: 203件  
-- **診断データ**: 328件  
-- **検証MAE最小エポック**: 70番目  
-- **総学習パラメータ数**: 577個
