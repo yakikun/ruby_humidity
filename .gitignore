@@ -1,0 +1,19 @@
+# 隠しファイル
+.*
+
+# ただし、必要な隠しファイルは除外から外す
+!.gitignore
+!.github/
+
+# 学習済みモデル・実行結果
+runs/
+output.csv
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+
+# OSが作るファイル
+.DS_Store
+Thumbs.db

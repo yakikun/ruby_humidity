@@ -1,0 +1,7 @@
+{
+  "soil_dry_below_pct": 35.0,
+  "rain_hold_above_pct": 60.0,
+  "hot_above_c": 30.0,
+  "normal_water_ml": 100.0,
+  "hot_water_ml": 150.0
+}

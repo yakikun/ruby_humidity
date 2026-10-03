@@ -1,0 +1,56 @@
+{
+  "source_sha256": {
+    "/Users/reiya/Documents/kishoucon/temporal_humidity_20260923/humidity_v6_hourly_20260923/features.npz": "f127fa6674176f8b5bd40c11ac755fd812e4d46e6ccff2a504c834fa627ec3df",
+    "/Users/reiya/Documents/kishoucon/temporal_humidity_20260923/humidity_v6_hourly_20260923/sequences.json": "07459e526a65e6520176518b6c1560b01b511afa0a86758f2c230086e875ba01",
+    "/Users/reiya/Documents/kishoucon/temporal_humidity_20260923/humidity_v6_hourly_20260923/protocol.json": "41c88b7cd4072099e6809cf431d50044cda00e7cd36b36f694260823f3a444b6"
+  },
+  "legacy_csv_sha256": "60b910b976f728b9a8892c4dba8b7809291588d7f435ca63a64c252feb6089b8",
+  "csv_sha256": "ca2ccfe458f9581aa9c37c90e24b518eb4932e02dd40b696dd1d6fc5ee62e649",
+  "counts": {
+    "train": 362,
+    "validation": 203,
+    "diagnostic": 328
+  },
+  "feature_names": [
+    "frame0_mean",
+    "frame0_std",
+    "frame0_min",
+    "frame0_max",
+    "frame1_mean",
+    "frame1_std",
+    "frame1_min",
+    "frame1_max",
+    "frame2_mean",
+    "frame2_std",
+    "frame2_min",
+    "frame2_max",
+    "frame3_mean",
+    "frame3_std",
+    "frame3_min",
+    "frame3_max"
+  ],
+  "dates": {
+    "train": [
+      "2026-08-10",
+      "2026-08-16",
+      "2026-08-17"
+    ],
+    "validation": [
+      "2026-08-18",
+      "2026-08-19"
+    ],
+    "diagnostic": [
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22"
+    ]
+  },
+  "exact_legacy_feature_and_label_match": true,
+  "school_observation_time_verified": false,
+  "target": "Weathernews proxy humidity at +1 hour, not measured school-local humidity",
+  "caveats": [
+    "Page acquisition time is not verified observation time.",
+    "Previously used diagnostic period, not a new final test.",
+    "16 summary features, not the complete 4x512 V6 sequence model."
+  ]
+}
