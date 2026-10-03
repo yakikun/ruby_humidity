@@ -6,8 +6,6 @@
 !.github/
 
 # 学習済みモデル・実行結果
-runs/
-output.csv
 
 # Pythonキャッシュ
 __pycache__/

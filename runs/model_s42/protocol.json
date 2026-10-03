@@ -1,0 +1,37 @@
+{
+  "epochs": 80,
+  "learning_rate": 0.03,
+  "seed": 42,
+  "patience": 10,
+  "data": "data/v6_compact_features.csv",
+  "output": "runs/model_s42",
+  "feature_names": [
+    "frame0_mean",
+    "frame0_std",
+    "frame0_min",
+    "frame0_max",
+    "frame1_mean",
+    "frame1_std",
+    "frame1_min",
+    "frame1_max",
+    "frame2_mean",
+    "frame2_std",
+    "frame2_min",
+    "frame2_max",
+    "frame3_mean",
+    "frame3_std",
+    "frame3_min",
+    "frame3_max"
+  ],
+  "input_sha256": "ca2ccfe458f9581aa9c37c90e24b518eb4932e02dd40b696dd1d6fc5ee62e649",
+  "selection": "minimum validation MAE; earliest epoch on exact tie",
+  "diagnostic_used_for_selection": false,
+  "counts": [
+    362,
+    203,
+    328
+  ],
+  "feature_statistics": "training split only",
+  "optimizer": "online SGD",
+  "loss": "MSE of RH/100"
+}
