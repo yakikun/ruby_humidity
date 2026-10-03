@@ -112,8 +112,8 @@ sudo apt install git -y
 3. リポジトリをクローン
 
 ```
-git clone https://github.com/yakikun/ruby_humidity_nn_contest_submission.git
-cd ruby_humidity_nn_contest_submission
+git clone https://github.com/yakikun/ruby_humidity.git
+cd ruby_humidity
 ```
 
 4. テスト実行（動作確認）
